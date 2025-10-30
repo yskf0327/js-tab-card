@@ -82,7 +82,7 @@ main {
   gap: 13px;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  height: 340px;
+  height: 375px;
 }
 .card-wrapper {
   display: grid;
