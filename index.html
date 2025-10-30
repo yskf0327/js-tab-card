@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>福岡の観光スポット紹介</title>
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- original css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-inner wrapper">
+        <h1>福岡の観光スポット紹介</h1>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <ul class="card-wrapper">
+          <li class="card">
+            <div class="tab-button-wrapper" role="tablist">
+              <button class="tab-button active" role="tab" aria-controls="photo1" aria-selected="true">Photo</button>
+              <button class="tab-button" role="tab" aria-controls="info1" aria-selected="false">Info</button>
+              <button class="tab-button" role="tab" aria-controls="access1" aria-selected="false">Access</button>
+            </div>
+            <p class="spot-name">福岡タワー</p>
+            <div class="card-panel-wrapper">
+              <div class="card-panel active" id="photo1" role="tabpanel" aria-labelledby="photo1">
+                <img src="./img/spot01.jpg" alt="福岡タワー正面" class="spot-img" width="200" height="200" />
+              </div>
+              <div class="card-panel" id="info1" role="tabpanel" aria-labelledby="info1" hidden>
+                <p class="spot-desc">全長234mを誇る日本一の海浜タワー。展望室からは福岡の街並みと博多湾を一望でき、夜には幻想的なイルミネーションが輝きます。デートや観光に人気のスポットです。</p>
+              </div>
+              <div class="card-panel" id="access1" role="tabpanel" aria-labelledby="access1" hidden>
+                <div class="spot-access">
+                  <p class="spot-address">福岡市早良区百道浜2-3-26</p>
+                  <p class="spot-route">地下鉄「西新駅」または「唐人町駅」からバス約10分／福岡タワー南口下車すぐ</p>
+                </div>
+                <div class="spot-map">
+                  <iframe title="福岡タワー" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4630141232433!2d130.34892971209138!3d33.59328904171231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354193aa23040001%3A0xf9743b36617a912d!2z56aP5bKh44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1761744483872!5m2!1sja!2sjp" width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="tab-button-wrapper" role="tablist">
+              <button class="tab-button active" role="tab" aria-controls="photo2" aria-selected="true">Photo</button>
+              <button class="tab-button" role="tab" aria-controls="info2" aria-selected="false">Info</button>
+              <button class="tab-button" role="tab" aria-controls="access2" aria-selected="false">Access</button>
+            </div>
+            <p class="spot-name">太宰府天満宮</p>
+            <div class="card-panel-wrapper">
+              <div class="card-panel active" id="photo2" role="tabpanel" aria-labelledby="photo2">
+                <img src="./img/spot02.jpg" alt="太宰府天満宮" class="spot-img" width="200" height="200" />
+              </div>
+              <div class="card-panel" id="info2" role="tabpanel" aria-labelledby="info2" hidden>
+                <p class="spot-desc">学問の神様・菅原道真公を祀る全国有数の神社。四季折々の自然に囲まれ、特に梅の名所として知られます。受験合格祈願の参拝客で年間を通して多くの人々が訪れます。</p>
+              </div>
+              <div class="card-panel" id="access2" role="tabpanel" aria-labelledby="access2" hidden>
+                <div class="spot-access">
+                  <p class="spot-address">太宰府市宰府4丁目7-1</p>
+                  <p class="spot-route">西鉄太宰府線「太宰府駅」から徒歩5分／博多駅から直行バスあり</p>
+                </div>
+                <div class="spot-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6652.462734396445!2d130.5348239!3d33.5213697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35419b9f2aebfbcd%3A0xb824d1aba75fae97!2z5aSq5a6w5bqc5aSp5rqA5a6u!5e0!3m2!1sja!2sjp!4v1761793744062!5m2!1sja!2sjp" width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="tab-button-wrapper" role="tablist">
+              <button class="tab-button active" role="tab" aria-controls="photo3" aria-selected="true">Photo</button>
+              <button class="tab-button" role="tab" aria-controls="info3" aria-selected="false">Info</button>
+              <button class="tab-button" role="tab" aria-controls="access3" aria-selected="false">Access</button>
+            </div>
+            <p class="spot-name">大濠公園</p>
+            <div class="card-panel-wrapper">
+              <div class="card-panel active" id="photo3" role="tabpanel" aria-labelledby="photo3">
+                <img src="./img/spot03.jpg" alt="大濠公園" class="spot-img" width="200" height="200" />
+              </div>
+              <div class="card-panel" id="info3" role="tabpanel" aria-labelledby="info3" hidden>
+                <p class="spot-desc">福岡市中央区に位置する水と緑の公園。広大な池の周囲にはジョギングコースやカフェ、日本庭園が整備され、四季折々の風景を楽しみながら市民や観光客が憩う人気スポットです。</p>
+              </div>
+              <div class="card-panel" id="access3" role="tabpanel" aria-labelledby="access3" hidden>
+                <div class="spot-access">
+                  <p class="spot-address">福岡市中央区大濠公園1-2</p>
+                  <p class="spot-route">地下鉄「大濠公園駅」から徒歩2分／天神・博多からバス利用も便利</p>
+                </div>
+                <div class="spot-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.7358721911714!2d130.37388967667835!3d33.58620647333611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354193cc8cdba4c7%3A0xcdef79ddef4df798!2z5aSn5r-g5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1761793792678!5m2!1sja!2sjp" width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="tab-button-wrapper" role="tablist">
+              <button class="tab-button active" role="tab" aria-controls="photo4" aria-selected="true">Photo</button>
+              <button class="tab-button" role="tab" aria-controls="info4" aria-selected="false">Info</button>
+              <button class="tab-button" role="tab" aria-controls="access4" aria-selected="false">Access</button>
+            </div>
+            <p class="spot-name">櫛田神社</p>
+            <div class="card-panel-wrapper">
+              <div class="card-panel active" id="photo4" role="tabpanel" aria-labelledby="photo4">
+                <img src="./img/spot04.jpg" alt="櫛田神社" class="spot-img" width="200" height="200" />
+              </div>
+              <div class="card-panel" id="info4" role="tabpanel" aria-labelledby="info4" hidden>
+                <p class="spot-desc">博多の総鎮守として親しまれる古社で、博多祇園山笠の舞台としても有名。境内には歴史ある建物と巨大な飾り山があり、四季を通じて多くの参拝客が訪れます。</p>
+              </div>
+              <div class="card-panel" id="access4" role="tabpanel" aria-labelledby="access4" hidden>
+                <div class="spot-access">
+                  <p class="spot-address">福岡市博多区上川端町1-41</p>
+                  <p class="spot-route">地下鉄「祇園駅」から徒歩5分／博多駅から徒歩約15分</p>
+                </div>
+                <div class="spot-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.475900760232!2d130.40788397667862!3d33.592954573333515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191eaaa536a57%3A0xa1896c7e84458da4!2z5qub55Sw56We56S-!5e0!3m2!1sja!2sjp!4v1761793821337!5m2!1sja!2sjp" width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="tab-button-wrapper" role="tablist">
+              <button class="tab-button active" role="tab" aria-controls="photo5" aria-selected="true">Photo</button>
+              <button class="tab-button" role="tab" aria-controls="info5" aria-selected="false">Info</button>
+              <button class="tab-button" role="tab" aria-controls="access5" aria-selected="false">Access</button>
+            </div>
+            <p class="spot-name">福岡城跡（舞鶴公園）</p>
+            <div class="card-panel-wrapper">
+              <div class="card-panel active" id="photo5" role="tabpanel" aria-labelledby="photo5">
+                <img src="./img/spot05.jpg" alt="福岡城跡（舞鶴公園）" class="spot-img" width="200" height="200" />
+              </div>
+              <div class="card-panel" id="info5" role="tabpanel" aria-labelledby="info5" hidden>
+                <p class="spot-desc">江戸時代に黒田長政が築いた福岡城の跡地。春には約1,000本の桜が咲き誇り、花見の名所としても人気です。歴史と自然が調和する市民の憩いのスポットです。</p>
+              </div>
+              <div class="card-panel" id="access5" role="tabpanel" aria-labelledby="access5" hidden>
+                <div class="spot-access">
+                  <p class="spot-address">福岡市中央区城内1-4</p>
+                  <p class="spot-route">地下鉄「大濠公園駅」または「赤坂駅」から徒歩8分</p>
+                </div>
+                <div class="spot-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.7729016200724!2d130.37870978885496!3d33.585245199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354193d32689fe43%3A0x5f7b1b1a747c028a!2z56aP5bKh5Z-O6Leh!5e0!3m2!1sja!2sjp!4v1761793852330!5m2!1sja!2sjp" width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="tab-button-wrapper" role="tablist">
+              <button class="tab-button active" role="tab" aria-controls="photo6" aria-selected="true">Photo</button>
+              <button class="tab-button" role="tab" aria-controls="info6" aria-selected="false">Info</button>
+              <button class="tab-button" role="tab" aria-controls="access6" aria-selected="false">Access</button>
+            </div>
+            <p class="spot-name">糸島エリア（桜井二見ヶ浦）</p>
+            <div class="card-panel-wrapper">
+              <div class="card-panel active" id="photo6" role="tabpanel" aria-labelledby="photo6">
+                <img src="./img/spot06.jpg" alt="糸島エリア（桜井二見ヶ浦）" class="spot-img" width="200" height="200" />
+              </div>
+              <div class="card-panel" id="info6" role="tabpanel" aria-labelledby="info6" hidden>
+                <p class="spot-desc">海辺に立つ白い夫婦岩と鳥居が人気の絶景スポット。青い海と夕日が美しく、カフェや雑貨店も点在。ドライブやフォトスポットとして観光客に人気です。</p>
+              </div>
+              <div class="card-panel" id="access6" role="tabpanel" aria-labelledby="access6" hidden>
+                <div class="spot-access">
+                  <p class="spot-address">糸島市志摩桜井</p>
+                  <p class="spot-route">JR筑肥線「筑前前原駅」から昭和バス「桜井」行き乗車、「夫婦岩前」下車すぐ</p>
+                </div>
+                <div class="spot-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.692621145502!2d130.19258918885495!3d33.639211100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541ef002d11f33d%3A0xd79a57e985ddd656!2z5qGc5LqV5LqM6KaL44O25rWm!5e0!3m2!1sja!2sjp!4v1761793878486!5m2!1sja!2sjp" width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <small>&copy; 2025 Yusuke Fukumoto</small>
+    </footer>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
