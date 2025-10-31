@@ -15,5 +15,5 @@
 
 <script setup>
 import {spots} from './data/spots';
-import SpotCard from './components/spotCard.vue';
+import SpotCard from './components/SpotCard.vue';
 </script>

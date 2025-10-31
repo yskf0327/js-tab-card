@@ -8,18 +8,18 @@
       </button>
     </div>
 
-    <p class="spot-name">{{ spots.name }}</p>
-    <!-- photo -->
+    <p class="spot-name">{{ spot.name }}</p>
     <div class="card-panel-wrapper">
+      <!-- photo -->
       <div class="card-panel" :id="`photo${id}`" role="tabpanel" :aria-labelledby="`photo${id}`"
         v-show="currentTab === 'photo'">
-        <img :src="spots.photo" :alt="spot.name" class="spot-img" width="200" height="200">
+        <img :src="spot.photo" :alt="spot.name" class="spot-img" width="200" height="200">
 
       </div>
       <!-- info -->
       <div class="card-panel" :id="`info${id}`" role="tabpanel" :aria-labelledby="`info${id}`"
         v-show="currentTab === 'info'">
-        <p class="spot-desc">{{ spots.info }}</p>
+        <p class="spot-desc">{{ spot.info }}</p>
 
       </div>
       <!-- Access -->
@@ -36,7 +36,6 @@
         </div>
       </div>
     </div>
-
   </li>
 </template>
 
